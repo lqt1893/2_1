@@ -12,5 +12,5 @@ int main()
 		else
 			printf("Phuong trinh vo nghiem");
 	else
-		printf("Phuong trinh co nghiem la: %f", x=b/a);
+		printf("Phuong trinh co nghiem la: %f", x=-b/a);
 }
