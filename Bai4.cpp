@@ -18,6 +18,6 @@ int main()
 	{
 		printf("Phuong trinh co nghiem: \n");
 		printf("x1 = %f \n", (-b+sqrt(d))/(2*a));
-		printf("x1 = %f", (-b-sqrt(d))/(2*a));
+		printf("x2 = %f", (-b-sqrt(d))/(2*a));
 	}
 }
