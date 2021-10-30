@@ -9,7 +9,7 @@ int main()
 	if (t==2)
 		if (n/4)
 			if (n%100==0)
-				if (n%900==200||n%900==600)
+				if (n%400!=0)
 					printf("Thang 2 co 28 ngay");
 				else
 					printf("Thang 2 co 29 ngay");
@@ -19,6 +19,6 @@ int main()
 	else 
 		if (t==4||t==6||t==9||t==11)
 			printf("Thang %d co 30 ngay", t);
-		else
+		if (t==1||t==3||t==5||t==7||t==8||t==10||t==12)
 			printf("Thang %d co 31 ngay", t);
 }
